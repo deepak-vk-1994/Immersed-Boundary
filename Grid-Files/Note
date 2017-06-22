@@ -1,0 +1,27 @@
+Case    I       J       chord   half-angle  alhpa   result
+        91      241     0.8     5           0       band faces index out of range   
+1       121     321     0.8     5           0       IB resolved kind of flat   
+2       121     321     0.8     5           5       Expn-fans not resolved properly
+3       121     321     0.8     5           10      Expn-fans not resolved properly
+4       121     321     0.8     10          0       Good resolution of IB
+5       121     321     0.8     10          5       
+6       121     321     0.8     10          10      
+7       241     641     0.8     5           0       
+8       241     641     0.8     5           5       
+9       241     641     0.8     5           10      
+10      241     641     0.8     10          0       
+11      241     641     0.8     10          5       
+12      241     641     0.8     10          10      
+
+New     I       J       chord   half-angle  alhpa   result
+1       121     281     0.75    5           0       IB resolved kind of flat   
+2       121     281     0.75    5           5       Expn-fans not resolved properly
+3       121     281     0.75    5           10      Expn-fans not resolved properly
+4       121     281     0.75    5           7.5
+5       121     281     0.75    10          0       Good resolution of IB
+5       121     281     0.75    10          5       
+7       121     281     0.75    10          10      
+8       121     281     0.75    10          7.5       
+    
+
+

@@ -1,0 +1,43 @@
+Compile: 2017/06/17-22/15/03
+Deleting previous executable.
+Processing global.
+Processing utils.
+Processing string.
+Processing grid.
+Processing geometry.
+Processing state.
+Processing ppm.
+Processing muscl.
+Processing face_interpolant.
+Processing van_leer.
+Processing ausm.
+Processing ldfss0.
+Processing hlle.
+Processing viscous.
+Processing scheme.
+Processing immersed_boundary.
+Processing solver.
+
+All modules processed.
+
+Creating compiled file.
+Check correctness of write_interface.py
+
+TODO:
+daemon.py:        #TODO: Why are the following two statements required?!?
+immersed_boundary.f90:            !TODO: Stationary IB. Make generic
+muscl.f90:                !TODO: Generalise TVD scheme functions
+solver.f90:                !TODO: For non stationary IB?
+solver.f90:            !TODO: Seriously!!! Come up with a better name!!!!!
+solver.f90:            ! TODO: This function is pointless now. Remove it???
+string.f90:    !TODO: Implement a reset flag. If this flag is set to true, reset 
+string.f90:            !TODO: Add support for width also?
+visdaemon.py:# TODO: Generic vtk output file message
+visdaemon.py:            #TODO: Generalize filename (output*.fvtk)
+visitpostprocessing.py:# TODO: Adding subplots made generic
+visitpostprocessing.py:# TODO: Is AddPlot('Mesh', 'mesh') generic?
+vtkwrite.py:# TODO: Generalise grid file name 
+
+Removing generated files.
+
+End of compile script.
